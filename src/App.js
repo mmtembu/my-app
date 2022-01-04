@@ -5,6 +5,7 @@ import * as React from 'react';
 import PaginationScroll from './components/PaginationScroll';
 import acVideo from './assets/videos/ac-valhalla.mp4';
 import Profile from './components/pages/Profile';
+import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
@@ -28,16 +29,7 @@ function App() {
           <source src={acVideo} type='video/mp4'/>
         </video>
       </div> */}
-      <div className='navigation'>
-        <ul>
-          <li><a className='active' href='#profile'>Profile</a></li>
-          <li><a href='#education'>Education</a></li>
-          <li><a href='#experience'>Experience</a></li>
-          <li><a href='#accomplishments'>Accomplishments</a></li>
-          <li><a href='#abilities'>Skills & Abilities</a></li>
-        </ul>
-      </div>
-
+      <Navigation/>
     </div>
   );
 }

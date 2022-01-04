@@ -49,7 +49,7 @@ const Profile =()=> {
                     </div>
                 </div>
             </div>
-            <div className='stats'>
+            {/* <div className='stats'>
                 <a href="https://github.com/mmtembu/github-readme-stats">
                     <img align="center" src="https://github-readme-stats.vercel.app/api?username=mmtembu&show_icons=true&include_all_commits=true&theme=dark&count_private=true" alt="Mangaliso's github stats" />
                     </a>
@@ -58,7 +58,7 @@ const Profile =()=> {
                     <a href="https://github.com/anuraghazra/github-readme-stats">
                     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mmtembu&layout=compact&theme=dark&show_icons=true" />
                 </a>
-            </div>
+            </div> */}
         </div> 
     )
 }

@@ -13,6 +13,9 @@
 }
 
 .about{
+    padding: 10px;
+    border: 10px groove rgba(245, 176, 176, 0.204);
+    box-shadow: 0px 15px 25px 0px  rgba(245, 176, 176, 0.503);;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(245, 176, 176, 0.503);
     font-size: 30px;
@@ -39,8 +42,8 @@
     height: 200px;
     border-radius: 50%;
     object-fit: contain;
-    border-width: 45px;
-    border-style: groove;
+    border-width: 20px;
+    border-style: ridge;
     border-color: rgba(270, 100, 150, 0.503);
     transition: transform .7s ease-in-out;
     /* border-image: radial-gradient(rgb(248, 143, 143)) 50% round; */
@@ -57,7 +60,8 @@
 
 .display-picture{
     display: flex;
-    margin: 30px 20px 0px 0px;
+    /* margin: 30px 20px 0px 0px; */
+    margin: 30px;
     /* flex-direction: row; */
 }
 

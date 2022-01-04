@@ -1,0 +1,56 @@
+.navigation > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: radial-gradient(#a2398272,#3e2026);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+  }
+  
+  
+  li a {
+    display: block;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(245, 176, 176, 0.238);
+    margin: 10px;
+    text-align: center;
+    background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  li a:hover:not(.active) {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.503);
+    margin: 10px;
+    text-align: center;
+    background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.15,1.15);
+    text-decoration: none;
+  }
+  
+  .active {
+    /* background-color: #fff; */
+  
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.503);
+    margin: 10px;
+    text-align: center;
+    background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.15,1.15);
+    text-decoration: none;
+  }

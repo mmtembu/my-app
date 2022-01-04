@@ -11,7 +11,16 @@
     justify-content: space-evenly;
     font-size: larger;
   }
-  
+
+  .carousel-indicators li{
+      width: auto;
+      height: auto;
+      text-indent: 0px;
+      background-color: transparent;
+      -webkit-text-fill-color: transparent !important;
+      transform: none;
+      transition: none;
+  }
   
   li a {
     display: block;
@@ -34,23 +43,58 @@
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.503);
     margin: 10px;
     text-align: center;
-    background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ;
+    /* background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(1.15,1.15);
     text-decoration: none;
   }
+
+  li.active > a {
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.503);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.15,1.15);
+    transition: 0.4s linear;
+    
+  }
+
+  ul.carousel-indicators li.active{
+    /* width: auto;
+    height: auto;
+    text-indent: 0px; */
+    /* -webkit-text-stroke-width: 100px; */
+    /* -webkit-text-stroke-color: rgb(255, 255, 255) !important;
+    margin: 0px !important;
+    text-align: center; */
+    /* background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)); */
+    /* background : yellow; */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    transform: none;
+    transition: none; */
+    /* transition: .3s ease !; */
+    background: transparent !important;
+    transform: scale(1.15,1.15) !important;
+    /* text-decoration: overline; */
+
+  }
   
-  .active {
+ /* li.active [aria-select='true'] a.active{ */
+ a.active{
     /* background-color: #fff; */
   
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.503);
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
     background : linear-gradient(rgb(0, 0, 162), rgb(248, 143, 143), rgb(0, 64, 255)) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* background-color: transparent; */
     transform: scale(1.15,1.15);
-    text-decoration: none;
+    text-decoration: dashed;
   }

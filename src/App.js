@@ -20,7 +20,7 @@ function App() {
         <div className='light x8'></div>
         <div className='light x9'></div>
       <Header name="Mangaliso" surname="Mtembu"/>
-      <Profile/>
+      {/* <Profile/> */}
       {/* <div className='pagination'>
         <PaginationScroll/>
       </div> */}

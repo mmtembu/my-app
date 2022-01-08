@@ -1,11 +1,11 @@
 import { BottomNavigation } from '@mui/material'
 import React from 'react'
 import '../Navigation/Navigation.css'
-
+import Profile from '../pages/Profile'
 
 function Navigation() {
     return (
-    <div id="carouselExampleIndicators" data-ride="carousel" className='navigation carousel slide'>
+    <div id="carouselExampleIndicators" data-ride="carousel" className='navigation carousel slide' data-interval="false">
         <ul className='nav carousel-indicators' role="tablist">
           <li data-slide="0" data-target="#carouselExampleIndicators" className='nav-item'>
               <a className='nav-link active' data-toggle="tab" href='#profile' role="tab" aria-controls="profile" aria-selected="true">Profile
@@ -30,19 +30,19 @@ function Navigation() {
         </ul>
         <div class="carousel-inner">
             <div className="carousel-item active">
-                something 1
+            <Profile/>
             </div>
             <div className="carousel-item">
-                something 2
+            something 2
             </div>
             <div className="carousel-item">
-                something 3
+            something 3
             </div>
             <div className="carousel-item">
-                something 4
+            something 4
             </div>
             <div className="carousel-item">
-                something 5
+            something 5
             </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

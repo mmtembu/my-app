@@ -1,0 +1,41 @@
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 50px 0px 0px 50px;
+}
+
+.education > div{
+    justify-content: center;
+    text-align: justify;
+    align-content: center;
+    padding: 20px;
+}
+
+.high_school{
+    justify-content: start;
+    text-align: left;
+}
+
+.year{
+    justify-content: end;
+    text-align: end;
+    font-weight:bold;
+}
+
+.name{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name > h5 {
+    text-decoration: underline;
+}
+
+.info{
+    text-align: start;
+    width: 35%;
+}

@@ -99,8 +99,18 @@
     text-decoration: dashed;
   }
 
-  .carousel-inner{
+  div.carousel-inner{
+    display: flex;
     overflow: visible;
+    overflow-x: visible;
+    /* overflow-x: auto; */
+    scroll-snap-type: x mandatory;
+    /* scroll-padding: 0 0 0 50px; */
+  }
+
+  
+  section.carousel-item{
+    scroll-snap-align: center;
   }
 
   a.carousel-control-next{
@@ -155,6 +165,7 @@
     overflow: hidden;
     background-color: radial-gradient(#a2398272,#3e2026);
     transition:ease-in-out .345s;
+    /* transition:ease-in-out .000s; */
     /* position: fixed; */
     /* width: 15px; */
     /* height: 15px !important; */
@@ -165,6 +176,13 @@
     /* font-size: larger; */
 
   }
+
+  /* .carousel-inner > .carousel-item{
+    -webkit-transition: 0.9s ease-in-out left;
+    -moz-transition: 0.9s ease-in-out left;
+    -o-transition: 0.9s ease-in-out left;
+    transition: 0.9s ease-in-out left;
+  } */
 
 
   /* .carousel-item .active{
